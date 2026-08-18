@@ -2402,4 +2402,4 @@ UserInputService.InputBegan:Connect(function(input, gameProcessed)
     end
 end)
 
-print("✅ PRIMOS DEV - Script completo con Auto Pickup flotante integrado correctamente.")
+end
