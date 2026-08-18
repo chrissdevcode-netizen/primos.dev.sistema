@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>CHRISS HUB | NEON ENTERPRISE V2</title>
+    <title>PRIMOS DEV | PANEL</title>
     
     <style>
         
@@ -942,7 +942,7 @@
                     <span class="topbar-title">Control Panel Database</span>
                 </div>
                 <div class="status-badge">
-                    <div class="status-dot"></div> DB ONLINE
+                    <div class="status-dot"></div> SERVER ONLINE 
                 </div>
             </div>
 
@@ -1081,7 +1081,7 @@
         <div class="modal-content">
             <h2 id="modalKeyTitle" class="modal-title">CHRISS-XYZ</h2>
             <p id="modalKeyUser" class="modal-user">Usuario: N/A</p>
-            <div id="modalKeyTime" class="modal-time">🟢 15d 10h</div>
+            <div id="modalKeyTime" class="modal-time"> 15d 10h</div>
             
             <div class="modal-grid">
                 <button class="btn-modal btn-pause" id="modalBtnPause" onclick="accionIndividual('pause')">Pausar</button>
@@ -1121,7 +1121,7 @@
             const user = document.getElementById('username').value;
             const pass = document.getElementById('password').value;
             
-            if (user === "ADMIN" && pass === "chrisshub3753") {
+            if (user === "PRIMOS ADMIN" && pass === "primos-dev-28481 ") {
                 document.getElementById('login-screen').style.display = "none";
                 document.body.style.backgroundImage = "none";
                 document.getElementById('app-container').style.display = "flex";
@@ -1197,7 +1197,7 @@
             const dias = parseInt(document.querySelector('input[name="v_dur"]:checked').value);
             
             // Creación de la llave en formato corrido
-            const keyString = `CHRISS-VIP-${generarCadenas()}`;
+            const keyString = `PRIMOS-VIP-${generarCadenas()}`;
             
             // LA CLAVE: expires_at en 0 para esperar HWID del cliente
             const keyData = { 
@@ -1244,7 +1244,7 @@
             
             for(let i = 0; i < qty; i++) {
                 // Llave Free en formato corrido
-                let keyString = `CHRISS-FREE-${generarCadenas()}`;
+                let keyString = `PRIMOS-FREE-${generarCadenas()}`;
                 
                 updates[keyString] = { 
                     type: "FREE", 
