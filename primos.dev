@@ -1,4 +1,4 @@
--- Servicios necesarios
+--SERVICIOS PRIMOS DEV SCRIPT 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Camera = workspace.CurrentCamera
